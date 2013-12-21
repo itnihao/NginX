@@ -1,0 +1,82 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 17 Dec 2013 15:49:25 -0600
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: source
+Version: 1.5.8-1~saucy0
+Distribution: saucy
+Urgency: high
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Juan Carlos Bauza <JCarlos@CloudIngenium.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.5.8-1~saucy0) saucy; urgency=high
+ .
+   * New upstream release 1.5.8
+ .
+     *) Feature: IPv6 support in resolver.
+ .
+     *) Feature: the "listen" directive supports the "fastopen" parameter.
+        Thanks to Mathew Rodley.
+ .
+     *) Feature: SSL support in the ngx_http_uwsgi_module.
+        Thanks to Roberto De Ioris.
+ .
+     *) Feature: vim syntax highlighting scripts were added to contrib.
+        Thanks to Evan Miller.
+ .
+     *) Bugfix: a timeout might occur while reading client request body in an
+        SSL connection using chunked transfer encoding.
+ .
+     *) Bugfix: the "master_process" directive did not work correctly in
+        nginx/Windows.
+ .
+     *) Bugfix: the "setfib" parameter of the "listen" directive might not
+        work.
+ .
+     *) Bugfix: in the ngx_http_spdy_module.
+Checksums-Sha1: 
+ eb83dd19580ad26fed052ac2998162dad654bcd8 2758 nginx_1.5.8-1~saucy0.dsc
+ 5c02b293a59c32172d2d5b3c52da7fe0afc179ef 790523 nginx_1.5.8.orig.tar.gz
+ 3a4fcc4922175ff9fab7e91a6c390058f9a457e3 1568812 nginx_1.5.8-1~saucy0.debian.tar.gz
+Checksums-Sha256: 
+ 640d2559504b511c96c8f395470e6a05c32c26f8182f12723924a487e3dc6d15 2758 nginx_1.5.8-1~saucy0.dsc
+ 23d0f4522fffb4cafcac6897813fec44572636798e24f1798760faf0767a7abe 790523 nginx_1.5.8.orig.tar.gz
+ 36a86d387edc8e1e6eea409c934117cfe83b1083f77f5523d27e50b73e363b63 1568812 nginx_1.5.8-1~saucy0.debian.tar.gz
+Files: 
+ 53989f0f0ddc6ee8c1066a81ed6d921e 2758 httpd optional nginx_1.5.8-1~saucy0.dsc
+ 4ea0364c17693158d7b780fe0bc40841 790523 httpd optional nginx_1.5.8.orig.tar.gz
+ ab504856121e61201701de5eba7a67e3 1568812 httpd optional nginx_1.5.8-1~saucy0.debian.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJStcOwAAoJEClMsyReIztK8awP/iRF6ioNaZ03cGP/8L/Vc/Q4
+MjqmUuvvTEyP20wZXh2/0A2aUEHfY/T80DugDZBngmDd13ULvDLOEy/9E0BmDU6R
+MYI1or8P9ztLHhM1pb4Gv65bIpPO7Y+yBaRVKVrlpgW5vAvwUNNuNr1WUlWRQ5vp
+e7kcKPDYbj4bsZy5G1EylGbxBN48XFUYIh5kCua2snX8RpKljfMDmxer3cNfPOvj
+D85KYijbWdbZF6FTl70hPQL4XgVobhP/6AXq8FaDzZaMGgRWStbmN/ki1Dvk1h2i
+eXGC8soZMrj2ME17sQt7Vx9JEsB8S/FT4cJUl4cLWn85QUNrwbS3ZKwdaTnwxMG5
+fJ7QOay3EZ+25psYahsA4jCV1FcIb780vOclfl9HHD9HGeij6rm1A+HIyLh+F12L
+kCSl3/LURdEDsSeC39JY4kxvOuYbAQanxmVq3zSU04X3DP85ZXOzBScTIk9whfzH
+Y6gVZxQku3mIV5zXYu4FjyXHAddaHBENfIc1gmP/VvQqUylPT0lIvVQF/TpiCguz
+PbF8fO4uD7N1TlvfHKtY3DxvLM7xkQ8PRuM1hgDxa9OD5rIoHj2KGSye8WSCDTk8
+UoHwLdcw/EcIWueoIm2wzeOAts4Lbq2pKZt5FY38xDFI+LiN2AavIHd26RNy+goB
+cXly8Q00P4dG0UWDoD1B
+=h/Af
+-----END PGP SIGNATURE-----

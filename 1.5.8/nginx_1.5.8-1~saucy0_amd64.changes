@@ -1,0 +1,118 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Tue, 17 Dec 2013 15:49:25 -0600
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: source all amd64
+Version: 1.5.8-1~saucy0
+Distribution: saucy
+Urgency: high
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Juan Carlos Bauza <JCarlos@CloudIngenium.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.5.8-1~saucy0) saucy; urgency=high
+ .
+   * New upstream release 1.5.8
+ .
+     *) Feature: IPv6 support in resolver.
+ .
+     *) Feature: the "listen" directive supports the "fastopen" parameter.
+        Thanks to Mathew Rodley.
+ .
+     *) Feature: SSL support in the ngx_http_uwsgi_module.
+        Thanks to Roberto De Ioris.
+ .
+     *) Feature: vim syntax highlighting scripts were added to contrib.
+        Thanks to Evan Miller.
+ .
+     *) Bugfix: a timeout might occur while reading client request body in an
+        SSL connection using chunked transfer encoding.
+ .
+     *) Bugfix: the "master_process" directive did not work correctly in
+        nginx/Windows.
+ .
+     *) Bugfix: the "setfib" parameter of the "listen" directive might not
+        work.
+ .
+     *) Bugfix: in the ngx_http_spdy_module.
+Checksums-Sha1: 
+ 8c9bdd9ea97c73b2e9da17f27558af1278000a6c 2758 nginx_1.5.8-1~saucy0.dsc
+ 5c02b293a59c32172d2d5b3c52da7fe0afc179ef 790523 nginx_1.5.8.orig.tar.gz
+ 7fa7c986899e95a8b2b37f4e8d882541f660491a 1568810 nginx_1.5.8-1~saucy0.debian.tar.gz
+ 4644a45b9fac61d56c532d73dcf5e4551c937c7e 67906 nginx_1.5.8-1~saucy0_all.deb
+ 8eced9f6d09bc1a5584ceee1c0bf998c3cf2f158 81586 nginx-doc_1.5.8-1~saucy0_all.deb
+ 50f9a40d7c73b9296b6be450d887e573c9a8a31a 79828 nginx-common_1.5.8-1~saucy0_all.deb
+ 5b2c1cfd9a149f9f70c123728048423c937791a5 359044 nginx-naxsi-ui_1.5.8-1~saucy0_all.deb
+ b05a879bd9fd9803b77f73c90ac3a2d54825ac56 469290 nginx-full_1.5.8-1~saucy0_amd64.deb
+ fd7212378cb61f1168988cde13e1fc0fb93abe98 3119424 nginx-full-dbg_1.5.8-1~saucy0_amd64.deb
+ 9cf12350fe1bf13199632d04ea8e94cda2b5ea03 345288 nginx-light_1.5.8-1~saucy0_amd64.deb
+ f8d6f178ef668c6037d14c25c4fd633a9d7d3a58 2162544 nginx-light-dbg_1.5.8-1~saucy0_amd64.deb
+ d6eff45c832b2911f1515e4c1ea60a9d492eb35f 562082 nginx-extras_1.5.8-1~saucy0_amd64.deb
+ f81a6cd7a6dc5e96e92265c3ea95bc8d2af3bb88 3779194 nginx-extras-dbg_1.5.8-1~saucy0_amd64.deb
+ 020f13c992e41e1ab91482fc98c753034f4b1304 387664 nginx-naxsi_1.5.8-1~saucy0_amd64.deb
+ b60aed42f94c90df4f0faf6663ea702190da9cb7 2330156 nginx-naxsi-dbg_1.5.8-1~saucy0_amd64.deb
+Checksums-Sha256: 
+ 0c5d4177d083dedfa4c7a91a05eb590f7dfe34eefb3b9b7e5d368cb82b9d3876 2758 nginx_1.5.8-1~saucy0.dsc
+ 23d0f4522fffb4cafcac6897813fec44572636798e24f1798760faf0767a7abe 790523 nginx_1.5.8.orig.tar.gz
+ 3c11442dca25322a0c45e821eebda7b8ec7c8fcccc42518125270a1cac209fe8 1568810 nginx_1.5.8-1~saucy0.debian.tar.gz
+ ee4fee679b6135b2ef414e6ec3a818a53a294fca5c7a1ed8690da6b2414679b8 67906 nginx_1.5.8-1~saucy0_all.deb
+ 49f72bf2fabcc170e1232b1bca236cba729c324e97e62b7f852310760edb7fc2 81586 nginx-doc_1.5.8-1~saucy0_all.deb
+ fe7f5ad7b9feae2da9ec96fd2e79295150e18397f6a5a18b97ca4cbf14ed38c9 79828 nginx-common_1.5.8-1~saucy0_all.deb
+ eae3338bfae416e661d37d805014d03b57404eb025d0142486be5c73cb93013a 359044 nginx-naxsi-ui_1.5.8-1~saucy0_all.deb
+ c988ea666aa6c5932c1dbcd2cf1dbba6eedc567a406c3477b561ed92a62d4037 469290 nginx-full_1.5.8-1~saucy0_amd64.deb
+ 1f50aa861e240bab3a17ba066d7b9658931b24c3bcc89172416e790ae030f199 3119424 nginx-full-dbg_1.5.8-1~saucy0_amd64.deb
+ 6d0c42a3d70a1190e145d392fdef8dc59e9f000eb5d80273d38b15c6caca5e35 345288 nginx-light_1.5.8-1~saucy0_amd64.deb
+ 8c1d16c84b9350154537c1d5798c681c5039d3a6fa396192a4d2aa0ae8881d92 2162544 nginx-light-dbg_1.5.8-1~saucy0_amd64.deb
+ a902d744fb864f211ae3fac35212a02cd54a364331b40fa519e5528b7e95edce 562082 nginx-extras_1.5.8-1~saucy0_amd64.deb
+ f347a3171cbedfa92be7b1999580c3c1ac7832e7e6b0ebb0eb0e5bb38f44b075 3779194 nginx-extras-dbg_1.5.8-1~saucy0_amd64.deb
+ 9ae9450d2587b235923d5e17aa26eaa0d999172664c74cfd525d108e271e7cb7 387664 nginx-naxsi_1.5.8-1~saucy0_amd64.deb
+ f9c4f333398741aeab3085a977d7df72258c7ae54a748c96c4cf5f1286d91291 2330156 nginx-naxsi-dbg_1.5.8-1~saucy0_amd64.deb
+Files: 
+ c819b8403b942f9f129cf68701f1a64c 2758 httpd optional nginx_1.5.8-1~saucy0.dsc
+ 4ea0364c17693158d7b780fe0bc40841 790523 httpd optional nginx_1.5.8.orig.tar.gz
+ d0f922e5bdeadb78a2db799549534f9b 1568810 httpd optional nginx_1.5.8-1~saucy0.debian.tar.gz
+ 0c94ecea7006933cc555d34a9a3eb95c 67906 httpd optional nginx_1.5.8-1~saucy0_all.deb
+ e02c57c58a4060b6c57362b95ee20a60 81586 doc optional nginx-doc_1.5.8-1~saucy0_all.deb
+ 2e488444f9f89ed49f823cef6e873141 79828 httpd optional nginx-common_1.5.8-1~saucy0_all.deb
+ af90170c65c3357e59a720d9db413aad 359044 httpd extra nginx-naxsi-ui_1.5.8-1~saucy0_all.deb
+ 1ff7ee3ea165c9a55a6877e47a45a206 469290 httpd optional nginx-full_1.5.8-1~saucy0_amd64.deb
+ 959958e81da5669b36fb32dcd73854d0 3119424 debug extra nginx-full-dbg_1.5.8-1~saucy0_amd64.deb
+ 8bf84da24bac0716062713f94c90ae03 345288 httpd extra nginx-light_1.5.8-1~saucy0_amd64.deb
+ de0fa717081606d54e3666fac729b2fb 2162544 debug extra nginx-light-dbg_1.5.8-1~saucy0_amd64.deb
+ a11e7142209a84e20853b12b5f80bf3a 562082 httpd extra nginx-extras_1.5.8-1~saucy0_amd64.deb
+ b388a46746939f1b2730d542528ff8c9 3779194 debug extra nginx-extras-dbg_1.5.8-1~saucy0_amd64.deb
+ 68b24949d38b69f5dc0153fae127eb18 387664 httpd extra nginx-naxsi_1.5.8-1~saucy0_amd64.deb
+ 46a5a1fe62fa6847d1a4e73d55381f6a 2330156 debug extra nginx-naxsi-dbg_1.5.8-1~saucy0_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJStb+LAAoJEClMsyReIztKZ+cP/jsmA1MGrQXwarLIojv/fTkT
+a0QxmsJq39Cx9q2L0gBMyFmbBq2VcQOvQCPhjlb7cKwA40QPXE713h+pTubQRTVd
+z+yQrw42fbJkhd3pyQZBswGB6KtwZDrH0LOXicvA653IKRJEJOkdQ/xWa/+a6LTO
+EZmO3fEKjR8RTgLjfaWjDYCQpYSspM6ScnauVSCAyt6SltwKa08064+moXnu9IIb
+TiU5zFtkr5PKi3Gxap7b19xCgBQRUzgFvgtw9LNPB48mxLa85MOL+0NVU7s1dG6J
+SAopOSqLuZBGmdR4QaLa+Wzh/h4kNivSJPlfV8twCfcaqxooRtV8u2OsK3URCfzM
+ApseTr40nJPc+SsVopv97hGdLxf/vOIpmqrOJ4QqLKbWkpewXaFqUzkB0qJMEEAi
+/uoDbj1MmnANo4JssGFpr7oxbBCqhSqcCJXagtS0zKUc4gwh6gb9lMDPLEI6MTFH
+Dt0NzqK8ldMsLQm+hPIOnP/NVnvj+g5HXJau2AcEBiOpmZp+UzcgiiC5rIRuNbNK
+6VLg43YoFnLA5sqofLnFaJUA0w+gaftmrhehE7Qz4DHCTMrlSz8yGQ6jYztvCufo
+Z4knrJD9rGARCnrzOtlbP3z5+M9kFlQR4ZHlZ99TXr0WGBGdHMDqtqgv0FQkhUKW
+0koQ0sRKv6yR3yxd3Cs3
+=eTgd
+-----END PGP SIGNATURE-----
