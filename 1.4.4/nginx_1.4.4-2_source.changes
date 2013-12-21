@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 21 Dec 2013 14:58:26 -0600
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: source
+Version: 1.4.4-2
+Distribution: saucy
+Urgency: low
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Juan Carlos Bauza <JCarlos@CloudIngenium.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.4.4-2) saucy; urgency=low
+ .
+   * Initial independent Build
+Checksums-Sha1: 
+ 545b2dd55d0ae1e819a630e28f96cb80ddc56769 2809 nginx_1.4.4-2.dsc
+ c088a0e72854f191ce57e2aa21cd5096df91f33e 1569702 nginx_1.4.4-2.debian.tar.gz
+Checksums-Sha256: 
+ 16b8d7c51e76c9b06936439f9d37b376e1e329ba601899ec1f75cdb6942acad2 2809 nginx_1.4.4-2.dsc
+ 213c813a86ac5bbb11c5b129659da5e70edf55af0287dbd2d096457a04eec0e2 1569702 nginx_1.4.4-2.debian.tar.gz
+Files: 
+ d86feec610e82dbd4d97ed69776561fa 2809 httpd optional nginx_1.4.4-2.dsc
+ 0b21a8a22189d13fde26f06ac21c3233 1569702 httpd optional nginx_1.4.4-2.debian.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJStgFxAAoJEClMsyReIztKCsAP/3HPc1srMBqeUv54ZxQ0v0XT
+UV9PxamLzVFMg/VIv0+Nq6MpQPgGTRlOUeFDP/3vdngSkG8U3THsMG99d+7MzYA1
+Qo/6D94UikOB6jeT4YzCyBTGZLXzeeqBmsiZtUaBNNWJvemQsUSMHKt+WACJAbHs
+swbV4iRGBGs4suuOKdkRB7tVabGvhrqEBYojx8IbED4YzUKQM2R7LmShXEGmKkXL
+lF4jpkKuhd3HzCoLd+Pud4MN25bq/b6ioOI0+IwGLBTH7+hljxPWm1m3st9RsTej
+Xo+am++tqvDPTgSZPm6KCPoLas2iVnLE5DjdYzk+lOWq3cV6h3JmaSQmPuvgg2Wv
+euYzpyvORWPT0cTMeZ85c/GmCWueg56KienbdBFIgbM0JfFJYzKPADatr1SQmmk9
+iybccgmeg963YtK7KP23/cUSIih7t1kvUmeUbt04LqK/LowGvVfUoy6zzHfJmd81
+/rTD0pRwxEYDlsOc7ZyY0weYzKa26E4Azcp19Fl72TmchBarWDqY8i3Bll7pA4h1
+rPhX6fV+Stgkul2spzGFrPIsNLnnE/cN9zXyM74t4DVxwn7bj1aLkouS512hGWzM
+VCJ2RUKH86m+uKSmivum9INSyLkNLQZT0LjnKQmQzNCnccTKa+reL/HOuJHZISS2
+fdmuVLpInDwh5szEwmWR
+=SAtt
+-----END PGP SIGNATURE-----

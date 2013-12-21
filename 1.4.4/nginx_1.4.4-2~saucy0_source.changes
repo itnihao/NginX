@@ -1,0 +1,57 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 21 Dec 2013 14:58:26 -0600
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: source
+Version: 1.4.4-2~saucy0
+Distribution: saucy
+Urgency: low
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Juan Carlos Bauza <JCarlos@CloudIngenium.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.4.4-2~saucy0) saucy; urgency=low
+ .
+   * Initial independent Build
+Checksums-Sha1: 
+ 2b7f73e2ec7982ec67005264f5fa0430fd6ef36c 2837 nginx_1.4.4-2~saucy0.dsc
+ cc36070bab09e2897aa3f96c2f5f44b11bd811d6 1569758 nginx_1.4.4-2~saucy0.debian.tar.gz
+Checksums-Sha256: 
+ 04f6f5d78bce147aa48d48374b081357244807718a3aff16b1c17bc1279e435f 2837 nginx_1.4.4-2~saucy0.dsc
+ d5c724d12182ddc67148508eefa4185195419a1d6912a869c18174ec3909a6bc 1569758 nginx_1.4.4-2~saucy0.debian.tar.gz
+Files: 
+ 1b493cfafecba99bd90571fa363f7698 2837 httpd optional nginx_1.4.4-2~saucy0.dsc
+ b1e44f9c7b8f5f4f5adcbbdfac1c0bfb 1569758 httpd optional nginx_1.4.4-2~saucy0.debian.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJStgIiAAoJEClMsyReIztKFL4P/jx0vZ2g2TLiVQcJQHbJAkeM
+qSfWKW0I5GDb0iYv7BzgOSFOnqjJYslOEdUwgBG0oiDY/GxkIhklM7id0/YmAcH1
+6GTtYVIxLxWpq45Kb8h8ESr2NWd6TOkRPAisj2X5hn1WGMNq6S5IMmXfDQiIu5++
+/GA2mFGIumpF2s+FExtywDf0BXEzkFtlrwtZb3c95u3h78OvNN+NbkUU4Qwm5DLH
+kS5moFRjDGKOqJNShC6e2n8AWzf0ej6ckQGcnZLCTjGw4SnqNEodvK+BHt+rlsTj
+zjxu/G6CHADsX7AuGv+T91gzBBj4s1LQGnwGDc8m6Akb43r3aScqTm5kWL5XiIVi
+rJb8qZkdQ46KV9+A8HxCbpAEpEa05Lnd/KuQuixT7ONUW/mC2Z6DNYB3cP9aEEH9
+T8fDVdrdqIhTVLXbcOiLq3GqiHUT6aZ+KKbRzOzyvW3u/poIYiMhd71edFtnKayg
+ooQo775CGSfztL43HcMD0qRU0BeYGm+7dd6PSXu5nubeYAwce7QDedBaoFnoW7eG
+QsxQccO3t2gi4V4LBMFksNlgXZyVKc6Ac9ndkvhCHwk757YJU9NDv7WRL0HIZxYH
+eA1/LW4egk9YZ+Xpr3sWxwUZzahCa6xJpuUARdHAsiRkiqcFyzEYWnwBBhVFGVlm
+6e8Y1lcIbGVFUHOCcwac
+=CYUZ
+-----END PGP SIGNATURE-----

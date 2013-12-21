@@ -1,0 +1,29 @@
+ dpkg-buildpackage -rfakeroot -d -us -uc -S -sd
+dpkg-buildpackage: warning: using a gain-root-command while being root
+dpkg-buildpackage: source package nginx
+dpkg-buildpackage: source version 1.4.4-1~saucy0
+dpkg-buildpackage: source changed by Thomas Ward <teward@ubuntu.com>
+ dpkg-source --before-build nginx-1.4.4
+ fakeroot debian/rules clean
+dh_testdir
+dh_testroot
+dh_clean
+rm -rf /Build/NginX/1.4.4/nginx-1.4.4/debian/build-*
+ dpkg-source -b nginx-1.4.4
+dpkg-source: info: using source format `3.0 (quilt)'
+dpkg-source: info: building nginx using existing ./nginx_1.4.4.orig.tar.gz
+dpkg-source: info: building nginx in nginx_1.4.4-1~saucy0.debian.tar.gz
+dpkg-source: info: building nginx in nginx_1.4.4-1~saucy0.dsc
+ dpkg-genchanges -S -sd >../nginx_1.4.4-1~saucy0_source.changes
+dpkg-genchanges: warning: the current version (1.4.4-1~saucy0) is earlier than the previous one (1.4.4-1)
+dpkg-genchanges: not including original source code in upload
+ dpkg-source --after-build nginx-1.4.4
+dpkg-buildpackage: binary and diff upload (original source NOT included)
+Now running lintian...
+warning: the authors of lintian do not recommend running it with root privileges!
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile nginx_1.4.4-1~saucy0.dsc Thomas Ward <teward@ubuntu.com>
+gpg: skipped "Thomas Ward <teward@ubuntu.com>": secret key not available
+gpg: /tmp/debsign.sEl5CDsy/nginx_1.4.4-1~saucy0.dsc: clearsign failed: secret key not available
+debsign: gpg error occurred!  Aborting....

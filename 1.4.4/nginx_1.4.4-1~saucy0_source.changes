@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Sat, 30 Nov 2013 15:19:11 -0500
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: source
+Version: 1.4.4-1~saucy0
+Distribution: saucy
+Urgency: medium
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Thomas Ward <teward@ubuntu.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.4.4-1~saucy0) saucy; urgency=medium
+ .
+   * Resync with Debian
+Checksums-Sha1: 
+ d677065874d8f2bdca95747e89a7c6cae7cc6428 1953 nginx_1.4.4-1~saucy0.dsc
+ aaaa0c161b7abda772e5abe3201b1d110fc510c1 1569634 nginx_1.4.4-1~saucy0.debian.tar.gz
+Checksums-Sha256: 
+ f1207ac2a1cbdfb9e1b3e42835709f2f0fa0941fbb860e8607c67765ca7fe4f4 1953 nginx_1.4.4-1~saucy0.dsc
+ 10162515b54f8934049378df89e8853f19d9b7f195579021c18f121e74551352 1569634 nginx_1.4.4-1~saucy0.debian.tar.gz
+Files: 
+ 8c1f6ac71fb0464d9830f6a6fe61676a 1953 httpd optional nginx_1.4.4-1~saucy0.dsc
+ 435e166eb22095df6831c25ae8ee45b2 1569634 httpd optional nginx_1.4.4-1~saucy0.debian.tar.gz
