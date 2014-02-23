@@ -1,0 +1,62 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sat, 21 Feb 2014 17:14:46 -0500
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: source
+Version: 1.4.5-2+saucy0
+Distribution: saucy
+Urgency: medium
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Juan Carlos Bauza <JCarlos@CloudIngenium.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.4.5-2+saucy0) saucy; urgency=medium
+ .
+   * Including Google's PageSpeed Module
+   * Change versioning string for the packaging so it's higher than the base
+     version number from Debian.
+Checksums-Sha1: 
+ 75989908b011f110ca924ba8a9e6520833d0317f 2837 nginx_1.4.5-2+saucy0.dsc
+ 96c1aecd314f73a3c30a0db8c39ad15ddacb074e 768728 nginx_1.4.5.orig.tar.gz
+ a6bbea15425197467de94d77411e33a1216eaeea 6736703 nginx_1.4.5-2+saucy0.debian.tar.gz
+Checksums-Sha256: 
+ 41e5fc534d8101dd9ac0dc2f295e30913f61cd2b2f5a20870716617ccced2b01 2837 nginx_1.4.5-2+saucy0.dsc
+ ade9024356a8f2b0679ea50e477b2585d46f43aa695cbe8ace9d65f457e0077e 768728 nginx_1.4.5.orig.tar.gz
+ ca0c3fa52e965931825125853ce8873352501df5a43043b58cc32858c2bcebeb 6736703 nginx_1.4.5-2+saucy0.debian.tar.gz
+Files: 
+ 922257101767ab9657465726ef89c58b 2837 httpd optional nginx_1.4.5-2+saucy0.dsc
+ 1a635e9543570f0c881b8ec9db0c6898 768728 httpd optional nginx_1.4.5.orig.tar.gz
+ bf253f3aa053bba3ca0eea60351529e0 6736703 httpd optional nginx_1.4.5-2+saucy0.debian.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.14 (GNU/Linux)
+
+iQIcBAEBAgAGBQJTCUVJAAoJEClMsyReIztKEBIP/2f4yVpzZCupjr91i3YILNzZ
+GjebQmHb7yAKp5MvFSvW8AU1V5n37fQOGJhles5WhYnfGnN5p8PIdqehsKS4g9gO
+YXAMNQZj25NvmRpCyrQFrpMW+vSPL4ltKTIh4pmtFBwm4UlNqMf07E7L5yRmjtVZ
+Kgqk9sBQ/PHbplsFCO5VGIxOu1xNTe/VQMRMc/iueuvzGrUayBSvYqqOETBsH0EM
+gBjziLtPSYFDeYkN2Ma7/JlkaXLE9bjQg4X+a7+L292NRuXea2zY2sLR8UCPoneK
+r3jGDDgM2lgEzb/c3Tx/L13xAk57sppbXI2s8K6F1+cMccOeJi81WLsUPJd2ph4v
+DVpM11CnsO5+Yg7lx/VUhTnhxfA5FR4OjD1pd0MwaEMhJT1DSdX1TuVvpTBIOi3L
+sUnMZov07jZv1+BK3Yio02wVuCjwy2D/byKrG2BZKCnhKSNmHVmXgEBhmZO7me8Q
+ozSm3YPcR3L6HfwXUdBJ6PIHK77GnS+twGOH0K/NfiVhsT/c8HtXmsPsZRb+u9pm
+f4O85MRaBwlirkxpYHs89jukimJz+PgQ9BkRMi0gKFNo/TTA1HdP7xsI3h9ZW2kF
+0QjLnAt+tUcBoMTAAL5tl9jqNOc5Xc9/Z0j4t9Cb3xBdZtKga9Z+P678Sp0epO6K
+XOn5rAK+XWIxk5jmZcx3
+=XLx8
+-----END PGP SIGNATURE-----

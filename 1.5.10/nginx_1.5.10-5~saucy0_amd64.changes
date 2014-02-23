@@ -1,0 +1,67 @@
+Format: 1.8
+Date: Thu, 20 Feb 2014 11:30:00 -0500
+Source: nginx
+Binary: nginx nginx-doc nginx-common nginx-full nginx-full-dbg nginx-light nginx-light-dbg nginx-extras nginx-extras-dbg nginx-naxsi nginx-naxsi-dbg nginx-naxsi-ui
+Architecture: all amd64
+Version: 1.5.10-5~saucy0
+Distribution: saucy
+Urgency: medium
+Maintainer: Kartik Mistry <kartik@debian.org>
+Changed-By: Juan Carlos Bauza <JCarlos@CloudIngenium.com>
+Description: 
+ nginx      - small, powerful, scalable web/proxy server
+ nginx-common - small, powerful, scalable web/proxy server - common files
+ nginx-doc  - small, powerful, scalable web/proxy server - documentation
+ nginx-extras - nginx web/proxy server (extended version)
+ nginx-extras-dbg - nginx web/proxy server (extended version) - debugging symbols
+ nginx-full - nginx web/proxy server (standard version)
+ nginx-full-dbg - nginx web/proxy server (standard version) - debugging symbols
+ nginx-light - nginx web/proxy server (basic version)
+ nginx-light-dbg - nginx web/proxy server (basic version) - debugging symbols
+ nginx-naxsi - nginx web/proxy server (version with naxsi)
+ nginx-naxsi-dbg - nginx web/proxy server (version with naxsi) - debugging symbols
+ nginx-naxsi-ui - nginx web/proxy server - naxsi configuration front-end
+Changes: 
+ nginx (1.5.10-5~saucy0) saucy; urgency=medium
+ .
+   * New upstream release (1.5.10)
+   * Includes Google's PageSpeed Module
+Checksums-Sha1: 
+ 6b0d5b74551c09f32f34e09fa8562d578beb290c 69378 nginx_1.5.10-5~saucy0_all.deb
+ cb1ab521effe999daa68e27804141558fe4c8870 82006 nginx-doc_1.5.10-5~saucy0_all.deb
+ 040ab15e2b4361ed5a4a97d78b7619daf85027d9 83184 nginx-common_1.5.10-5~saucy0_all.deb
+ d63dedf08d86f1f22fa2f56a80e3b3a0de79db9c 360632 nginx-naxsi-ui_1.5.10-5~saucy0_all.deb
+ 999968f3e330ef7fabfd9ea27c7da17b6c373543 3296136 nginx-full_1.5.10-5~saucy0_amd64.deb
+ 8d22eb4cf042420254820e096d8b590d7c0f85cd 24369616 nginx-full-dbg_1.5.10-5~saucy0_amd64.deb
+ 8bb35bf9109a34f7a40e208cb0cdf91acde82783 347430 nginx-light_1.5.10-5~saucy0_amd64.deb
+ 6f2f4370dc616216287150bc4c0d76781d3c1035 2139738 nginx-light-dbg_1.5.10-5~saucy0_amd64.deb
+ 482fb2fe0a320e75e63582fa1dc863678caa3c41 3497372 nginx-extras_1.5.10-5~saucy0_amd64.deb
+ 0b32ca7421756bb97bc42022b39bbfd5b1f7324c 26092954 nginx-extras-dbg_1.5.10-5~saucy0_amd64.deb
+ 77839b1c973ba28869701f0d5bf163d833f061a4 389680 nginx-naxsi_1.5.10-5~saucy0_amd64.deb
+ 525755db43c8ef3127394bf1d36978cd66ce1f49 2306620 nginx-naxsi-dbg_1.5.10-5~saucy0_amd64.deb
+Checksums-Sha256: 
+ c8b1d211b45e40c9a66da3478b579f0d3a1cd91bb4b5a782fa9782ed472c9f5b 69378 nginx_1.5.10-5~saucy0_all.deb
+ d0505bc05f4905f06ce54d72f84af0e25391935ac332e478a7f7bfece5648693 82006 nginx-doc_1.5.10-5~saucy0_all.deb
+ 4656093f5ce251ae77b57abbb26bd8e3fed8677b5c19716915a09349f5368291 83184 nginx-common_1.5.10-5~saucy0_all.deb
+ 8160570c33fd2e1bffad800751795732dee0e886b56fde576e0c8d1b26e73d23 360632 nginx-naxsi-ui_1.5.10-5~saucy0_all.deb
+ 5eb9521bdfae8a7585f31db4a905a63caf48daf600db892caefb39e6b5677aea 3296136 nginx-full_1.5.10-5~saucy0_amd64.deb
+ 31301f421a16f181552450a0cbc824e970b8441d80ee6f8c4937a1a97cf13bf6 24369616 nginx-full-dbg_1.5.10-5~saucy0_amd64.deb
+ 095499716f8818dd797b0d46b1a3ee79ea2378f37842ced9bc828abd12d4eceb 347430 nginx-light_1.5.10-5~saucy0_amd64.deb
+ 8f85b76afb32ad2d40eaf70b9e611489ca5e31a0747773c15685118dada8bb83 2139738 nginx-light-dbg_1.5.10-5~saucy0_amd64.deb
+ e117258ca82f54b7dc05857d2fe2c0f84bcc6196a6bd489d595482d40183ea14 3497372 nginx-extras_1.5.10-5~saucy0_amd64.deb
+ 9c85c07082d40bd82bbc7dc8a94d26613ce4f1885f433fe36e104dfd981ebb68 26092954 nginx-extras-dbg_1.5.10-5~saucy0_amd64.deb
+ 3850176706fc11fec1f56871eb0ceec3d6ec1da68dcda3eb9e14a655e64cfc0c 389680 nginx-naxsi_1.5.10-5~saucy0_amd64.deb
+ 28c5887ac79edc48e875e3850acb7743b486dbd214eb43fe5a66e29dc3a7023e 2306620 nginx-naxsi-dbg_1.5.10-5~saucy0_amd64.deb
+Files: 
+ 004da467a4b4ad926e573368af59e842 69378 httpd optional nginx_1.5.10-5~saucy0_all.deb
+ 11c96fd6ac2c2141497e81035073f389 82006 doc optional nginx-doc_1.5.10-5~saucy0_all.deb
+ d9a89d95d5c40c731534d027ba172077 83184 httpd optional nginx-common_1.5.10-5~saucy0_all.deb
+ 7dd31c0b070d045778c760eb2b62bce4 360632 httpd extra nginx-naxsi-ui_1.5.10-5~saucy0_all.deb
+ 83dee1a3b9023a33a911b11fc6b2b306 3296136 httpd optional nginx-full_1.5.10-5~saucy0_amd64.deb
+ bf509809d6022e737630e421b6fbe5a5 24369616 debug extra nginx-full-dbg_1.5.10-5~saucy0_amd64.deb
+ 6bd6488d77c3745675bcdc256cd70aec 347430 httpd extra nginx-light_1.5.10-5~saucy0_amd64.deb
+ 09486f1ef5ca17de8d4320552ad31023 2139738 debug extra nginx-light-dbg_1.5.10-5~saucy0_amd64.deb
+ 2973c68d5f8098e98722877fd393f660 3497372 httpd extra nginx-extras_1.5.10-5~saucy0_amd64.deb
+ a96024f40be3544b3e3f296a9cdeecf2 26092954 debug extra nginx-extras-dbg_1.5.10-5~saucy0_amd64.deb
+ 80050e54ddc8246ce3bed2fb42490c7a 389680 httpd extra nginx-naxsi_1.5.10-5~saucy0_amd64.deb
+ b16b633734a0224d71ee5bcdfa7a39e9 2306620 debug extra nginx-naxsi-dbg_1.5.10-5~saucy0_amd64.deb
